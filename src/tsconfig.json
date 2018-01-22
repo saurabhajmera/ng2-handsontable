@@ -22,7 +22,10 @@
     ],
     "typeRoots": [
       "../node_modules/@types"
-    ]
+    ],
+    "paths": {
+      "handsontable": ["../node_modules/handsontable-pro/dist/handsontable.js"]
+    }
   },
   "exclude": [
     "node_modules"

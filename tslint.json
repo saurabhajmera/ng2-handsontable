@@ -10,5 +10,11 @@
     "directive-selector": false,
     "component-selector": false,
     "import-blacklist": [true, "rxjs", "rxjs/Rx"]
+  },
+  "compilerOptions":{
+    "paths": {
+      "handsontable": ["../node_modules/handsontable-pro/dist/handsontable.js"]
+    }
   }
+
 }
