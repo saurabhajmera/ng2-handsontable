@@ -4,16 +4,14 @@ import { OnInit, OnDestroy, OnChanges, SimpleChanges, Component, EventEmitter,
 } from '@angular/core';
 import { Observable } from 'rxjs/Observable';
 import { Subscription } from 'rxjs/Subscription';
-import * as Handsontable from 'handsontable';
-import { handsontableStyles } from './handsontable.component.css';
+import * as Handsontable from 'handsontable-pro';
 import * as _ from 'lodash';
-
 
 @Component({
   selector: 'hotTable',
   template: '',
   encapsulation: ViewEncapsulation.None,
-  styles: [handsontableStyles]
+  styles: []
 })
 export class HotTableComponent implements OnInit, OnDestroy, OnChanges {
   @Input() public data: any[] = [];

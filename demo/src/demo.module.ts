@@ -13,6 +13,7 @@ import { FinanceDemoComponent } from './components/handsontable/finance-demo';
 import { ScienceDemoComponent } from './components/handsontable/science-demo';
 import { SportDemoComponent } from './components/handsontable/sport-demo';
 import { AdvancedDemoComponent } from './components/handsontable/advanced-demo';
+import {HandsontableProDemoComponent} from "./components/handsontable/handsontable-pro-demo";
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { AdvancedDemoComponent } from './components/handsontable/advanced-demo';
     FinanceDemoComponent,
     ScienceDemoComponent,
     SportDemoComponent,
-    AdvancedDemoComponent
+    AdvancedDemoComponent,
+    HandsontableProDemoComponent
   ],
   imports: [
     BrowserModule,

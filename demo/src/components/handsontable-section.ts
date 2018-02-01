@@ -9,6 +9,11 @@ const doc = require('html-loader!markdown-loader!./../../../README.md');
 /* tslint:disable-next-line:no-any */
 const tabDesc: any[] = [
   {
+    heading: 'Pro',
+    ts: require('!!prismjs-loader?lang=typescript!./handsontable/handsontable-pro-demo.ts'),
+    html: require('!!prismjs-loader?lang=markup!./handsontable/handsontable-pro-demo.html')
+  },
+  {
     heading: 'Basic',
     ts: require('!!prismjs-loader?lang=typescript!./handsontable/basic-demo.ts'),
     html: require('!!prismjs-loader?lang=markup!./handsontable/basic-demo.html')
@@ -115,7 +120,7 @@ tabDesc.forEach(desc => {
   `
 })
 export class HandsontableSectionComponent {
-  private currentHeading = 'Basic';
+  private currentHeading = 'Pro';
 
   private select(e) {
     if (e.heading) {

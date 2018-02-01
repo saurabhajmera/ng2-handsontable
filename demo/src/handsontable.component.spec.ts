@@ -11,7 +11,7 @@ import { FinanceDemoComponent } from './components/handsontable/finance-demo';
 import { ScienceDemoComponent } from './components/handsontable/science-demo';
 import { SportDemoComponent } from './components/handsontable/sport-demo';
 import { DemoModule } from './demo.module';
-import * as Handsontable from 'handsontable';
+import * as Handsontable from 'handsontable-pro';
 
 
 @Component({template: ''})

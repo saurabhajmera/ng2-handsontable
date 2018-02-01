@@ -17,9 +17,11 @@
       "prefix": "",
       "mobile": false,
       "styles": [
+        "../../node_modules/handsontable-pro/dist/handsontable.full.css"
       ],
       "scripts": [
-        "../../node_modules/chroma-js/chroma.js"
+        "../../node_modules/chroma-js/chroma.js",
+        "../../node_modules/handsontable-pro/dist/handsontable.full.js"
       ],
       "environmentSource": "environments/environment.ts",
       "environments": {

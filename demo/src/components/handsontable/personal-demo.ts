@@ -1,6 +1,6 @@
 // tslint:disable:no-any no-magic-numbers
 import { Component } from '@angular/core';
-import * as Handsontable from 'handsontable';
+import * as Handsontable from 'handsontable-pro';
 import { getPersonalData } from './data';
 
 function headerRenderer(instance, td, row, col, prop, value, cellProperties) {
